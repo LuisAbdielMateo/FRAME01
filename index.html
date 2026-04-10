@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRAME01 | We Build Worlds</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- GSAP Core & Plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Background Space Elements -->
+    <div class="bg-glow"></div>
+    <div class="stars"></div>
+    
+    <!-- Cinematic Planets -->
+    <div class="nebula-cloud"></div>
+    <div class="planet planet-1">
+        <div class="planet-atmosphere"></div>
+    </div>
+    <div class="planet planet-2"></div>
+
+    <!-- Navigation Overlay -->
+    <nav class="hud-nav">
+        <div class="logo">FRAME01</div>
+        <div class="hud-info">DIGITAL ARCHITECTURE</div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Scene 1: Hero -->
+        <section class="scene hero-scene">
+            <h1 class="hero-title">
+                <span class="line">WE DON'T BUILD WEBSITES.</span>
+                <span class="line bold">WE BUILD WORLDS.</span>
+            </h1>
+            <p class="scroll-indicator">SCROLL TO EXPLORE</p>
+        </section>
+
+        <!-- Scene 2: Concept Statement -->
+        <section class="scene statement-scene">
+            <h2 class="statement-text">
+                Every <span class="highlight">pixel</span> curated.<br>
+                Every <span class="highlight">interaction</span> engineered.<br>
+                For the <span class="highlight">top 1%</span>.
+            </h2>
+        </section>
+
+        <!-- Scene 3: Services (The Cores) -->
+        <section class="scene services-scene">
+            <div class="services-container">
+                <div class="service-card" data-speed="0.8">
+                    <div class="card-glow"></div>
+                    <h3>01 / DESIGN</h3>
+                    <p>High-end cinematic visuals tailored to prestige brands.</p>
+                </div>
+                <div class="service-card" data-speed="1">
+                    <div class="card-glow"></div>
+                    <h3>02 / DEVELOPMENT</h3>
+                    <p>Fluid, ultra-performant architectures pushing modern web limits.</p>
+                </div>
+                <div class="service-card" data-speed="0.9">
+                    <div class="card-glow"></div>
+                    <h3>03 / BRANDING</h3>
+                    <p>Identity engineering that commands luxury and authority.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scene 4: The Exit / Call to Action -->
+        <section class="scene action-scene">
+            <h2 class="action-title">READY TO TRANSCEND?</h2>
+            <a href="mailto:matteomike170@gmail.com" class="action-button">INITIATE PROJECT</a>
+            <div class="contact-email">MATTEOMIKE170@GMAIL.COM</div>
+            <div class="footer-hud">FRAME01 / SECURE CONNECTION ESTABLISHED</div>
+        </section>
+
+    </main>
+
+    <!-- Main Logic -->
+    <script src="main.js"></script>
+</body>
+</html>
